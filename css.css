@@ -1,0 +1,111 @@
+/* GENERAL STYLES */
+body {
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+  background:white;
+}
+
+/* HEADER */
+header {
+  background:palevioletred;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+
+nav ul {
+  list-style:none;
+  padding:0;
+}
+
+nav ul li {
+  display:inline;
+  margin:0 15px;
+}
+
+nav ul li a {
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* HOME SECTION */
+.home {
+  display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-items:center;
+  padding:50px;
+  text-align:center;
+  /*flex-wrap:wrap;*/
+}
+
+.home img {
+  width:200px;
+  height:auto;
+  border-radius:10px;
+  margin:20px 0;
+}
+
+.coder {
+  text-align:center;
+  margin-top:20px;            
+}
+
+/* ABOUT SECTION */
+.designer {
+  text-align:center;
+  padding:40px;
+}
+
+/* PROJECTS SECTION */
+.projects {
+  padding:40px;
+  text-align:center;
+}
+
+/* CONTACT SECTION */
+.contact {
+  padding:40px;
+  text-align:center;
+  line-height:1.8;
+}
+
+.contact a {
+  color:palevioletred;
+  text-decoration:none;
+}
+
+.contact a:hover {
+  text-decoration:underline;
+}
+
+/* FOOTER */
+footer {
+  background:palevioletred;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width:768px) {
+  .home {
+    flex-direction:column;
+  }
+
+  nav ul li {
+    display:block;
+    margin:10px 0;
+  }
+}
+
+  .project {
+  width:90%;
+  margin:20px auto;
+}
